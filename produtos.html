@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos</title>
+  <link rel="stylesheet" href="../projeto-afine/css/styles.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+
+<body id="produtos">
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-transparente">
+      <div class="container">
+
+        <a href="index.html" class="navbar-brand"><img src="../projeto-afine/imagens/logo.png" width="200px">
+        </a>
+
+        <!--Menu hamburguer-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <i class="fas fa-solid fa-bars text-dark-light"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav-principal"> <!--Barra de Navegação - Listagem -->
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Início</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Serviços</a>
+              <div class="dropdown-menu">
+                <a href="tratamento-corporal.html" class="dropdown-item">Tratamento Corporal</a>
+                <a href="tratamento-facial.html" class="dropdown-item">Tratamento Facial</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="produtos.html" class="nav-link">Produtos</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="contatos.html" class="nav-link">Contatos</a>
+            </li>
+
+          </ul>
+        </div>
+      </div> <!--fim container-->
+      </div>
+    </nav>
+  </header> <!--Fim cabeçalho-->
+
+  <main id="vendas"> <!--Vendas-->
+    <section class="banner-produtos"> <!-- Inicio Banner-->
+      <picture>
+        <source media="(max-width: 900px)" srcset="../projeto-afine/imagens/produtos/banner-produtos-pq.png">
+        <img src="../projeto-afine/imagens/produtos/banner-produtos2.png" class="img-fluid" alt="1" width="100%">
+      </picture>
+    </section> <!-- Fim Banner-->
+
+    <section id="localizacao">
+      <a href="index.html">Início</a> / <a href="produtos.html">Produtos</a>
+    </section>
+
+    <div class="container">
+      <div class="item-venda">
+        <img class="produtos-img" src="../projeto-afine/imagens/produtos/1.png" alt="Redux Cell">
+        <h3>Redux Cell</h3>
+        <strong>
+          <p class="text-venda">R$69,99</p>
+        </strong>
+        <p>Combate a celulite</p>
+        <button class="adicionar-ao-carrinho" data-preco="69.99">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="item-venda">
+        <img class="produtos-img" src="../projeto-afine/imagens/produtos/2.png" alt="iniby Doce">
+        <h3>Iniby Doce</h3>
+        <strong>
+          <p>R$79,99</p>
+        </strong>
+        <p>Inibi a saciedade por doces</p>
+        <button class="adicionar-ao-carrinho" data-preco="79.99">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="item-venda">
+        <img class="produtos-img" src="../projeto-afine/imagens/produtos/3.png" alt="Power Plus">
+        <h3>Power Plus</h3>
+        <strong>
+          <p>R$79,99</p>
+        </strong>
+        <p>Potencializador de Resultados</p>
+        <button class="adicionar-ao-carrinho" data-preco="79.99">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="item-venda">
+        <img class="produtos-img" src="../projeto-afine/imagens/produtos/4.png" alt="Detox Power">
+        <h3>Detox Power</h3>
+        <strong>
+          <p>R$29,99</p>
+        </strong>
+        <p>Drenagem e Antioxidante</p>
+        <button class="adicionar-ao-carrinho" data-preco="29.99">Adicionar ao Carrinho</button>
+      </div>
+
+
+      <div class="item-venda">
+        <img class="produtos-img" src="../projeto-afine/imagens/produtos/drena plus.png" alt="Drena Plus">
+        <h3>Drena Plus</h3>
+        <strong>
+          <p>R$84,99</p>
+        </strong>
+        <p>Potencializador de Resultados</p>
+        <button class="adicionar-ao-carrinho" data-preco="84.99">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="item-venda">
+        <img class="produtos-img" src="../projeto-afine/imagens/produtos/kit completo.png" alt="Kit completo">
+        <h3>Kit Completo</h3>
+        <strong>
+          <p>R$299,99</p>
+        </strong>
+        <p>Kit completo Nutracêuticos</p>
+        <button class="adicionar-ao-carrinho" data-preco="299.99">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="cinta">
+        <div class="item-venda-cinta">
+          <img class="produtos-img" src="../projeto-afine/imagens/produtos/centa feminina.png" alt="Cinta feminina">
+          <h3>Cinta Feminina</h3>
+          <strong>
+            <p>R$380,00</p>
+          </strong>
+          <p style="font-size: 12px;">ou 3x R$135,00</p>
+          <p>Cinta Pós-operatório</p>
+          <button class="adicionar-ao-carrinho" data-preco="380.00">Adicionar ao Carrinho</button> <button
+            class="adicionar-ao-carrinho" data-preco="135.00" ->3x Parcelado</button>
+        </div>
+        <div class="item-venda-cinta">
+          <img class="produtos-img" src="../projeto-afine/imagens/produtos/cinta masculina.png" alt="cinta masculina">
+          <h3>Cinta Masculina</h3>
+          <strong>
+            <p>R$430,00</p>
+          </strong>
+          <p style="font-size: 12px;"> ou 3x R$153,30</p>
+          <p>Cinta Pós-operatório</p>
+          <button class="adicionar-ao-carrinho" data-preco="430.00">Adicionar ao Carrinho</button>
+          <button class="adicionar-ao-carrinho" data-preco="153.30">3x Parcelado</button>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    </div> <!--Fim container vendas-->
+
+    <!-- Carrinho de compras -->
+
+    <section id="resumo">
+      <div id="carrinho">
+        <p> <span style="color: black;">&#128722</span> RESUMO DO PEDIDO: R$ <span id="total">0.00</span></p>
+        <ul id="itens-carrinho">
+        </ul>
+        <a href="https://wa.me/5521996086264?text=Ol%C3%A1,%20eu%20me%20chamo%20%5BEdite%20seu%20nome%5D,%0A%0AGostaria%20de%20finalizar%20minha%20compra.%20Aqui%20est%C3%A3o%20os%20produtos%20que%20escolhi:%0A%0A%5BNome%20do%20Produto%201%5D%20-%20R$%20%5BValor%20do%20Produto%201%5D%0A%5BNome%20do%20Produto%202%5D%20-%20R$%20%5BValor%20do%20Produto%202%5D%0A%5BNome%20do%20Produto%203%5D%20-%20R$%20%5BValor%20do%20Produto%203%5D%0ATotal%20da%20Compra:%20R$%20%5BValor%20Total%20da%20Compra%5D%0A%0AGostaria%20de%20prosseguir%20com%20a%20compra%20e%20saber%20mais%20sobre%20as%20op%C3%A7%C3%B5es%20de%20pagamento%20e%20entrega.%20Como%20devo%20proceder?%0A%0AObrigado(a)!"
+          target="_blank"><button class="comprar">Finalizar a Compra</button></a>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4 d-flex pr-25px">
+          <img src="../projeto-afine/imagens/logo-sem-fundo.png" width="200px" class="footer-img" alt="logo AFINE">
+        </div>
+
+        <div class="col-md-4">
+          <ul class="navbar-nav">
+            <li><a href="index.html">Início</a>
+            </li>
+
+            <li><a href="tratamento-corporal.html">Tratamentos Corporais</a>
+            </li>
+            <li><a href="tratamento-facial.html">Tratamentos Faciais</a>
+            </li>
+
+            <li><a href="produtos.html">Produtos</a>
+            </li>
+
+            <li><a href="contatos.html">Contatos</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 d-flex">
+          <ul>
+            <li>
+              <a href="https://wa.me/5521996086264?text=Ol%C3%A1%20eu%20me%20chamo%20%5BEdite%20seu%20nome%5D,%0A%0AVenho%20atrav%C3%A9s%20do%20site,%20e%20estou%20interessado(a)%20em%20conhecer%20mais%20sobre%20os%20tratamentos%20de%20est%C3%A9tica%20que%20voc%C3%AAs%20oferecem,%20e%20como%20eles%20podem%20me%20beneficiar.%20Gostaria%20de%20obter%20informa%C3%A7%C3%B5es%20sobre%20os%20tratamentos%20dispon%C3%ADveis,%20custos%20e%20orienta%C3%A7%C3%A3o%20que%20possam%20me%20fornecer.%0A%0AObrigado(a)."
+                target="_blank"><img src="../projeto-afine/imagens/whatt.png" width="90px" alt="icone-whatsapp"></a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/clinicaafine/" target="_blank">
+                <img src="../projeto-afine/imagens/instagram-icone.png" width="90px" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <span class="span-footer">
+      <p>&copy; 2023 Clínica AFINE.</p>
+    </span>
+  </footer>
+
+
+
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+
+  <script>
+    const botoesCarrinho = document.querySelectorAll('.adicionar-ao-carrinho');
+    const carrinhoElement = document.getElementById('carrinho-icon');
+    const mostrarCarrinhoButton = document.getElementById('mostrar-carrinho');
+    const totalElement = document.getElementById('total');
+    const itensCarrinhoElement = document.getElementById('itens-carrinho');
+    let total = 0;
+
+    // Função para remover um item do carrinho
+    function removerItemDoCarrinho(itemElement, preco) {
+      total -= preco;
+      totalElement.textContent = total.toFixed(2);
+      itemElement.remove();
+    }
+
+    botoesCarrinho.forEach(botao => {
+      botao.addEventListener('click', () => {
+        const preco = parseFloat(botao.getAttribute('data-preco'));
+        total += preco;
+
+        const itemCarrinho = document.createElement('li');
+        itemCarrinho.textContent = `${botao.parentElement.querySelector('h3').textContent} - R$ ${preco.toFixed(2)}`;
+
+        const botaoRemover = document.createElement('button');
+        botaoRemover.textContent = 'X';
+        botaoRemover.addEventListener('click', () => {
+          removerItemDoCarrinho(itemCarrinho, preco);
+        });
+
+        itemCarrinho.appendChild(botaoRemover);
+        itensCarrinhoElement.appendChild(itemCarrinho);
+
+        totalElement.textContent = total.toFixed(2);
+
+        // Exibir o carrinho quando um item for adicionado
+        carrinhoElement.style.display = 'block';
+      });
+    });
+
+    mostrarCarrinhoButton.addEventListener('click', () => {
+      // Exibir o carrinho quando o botão "Mostrar Carrinho" for clicado
+      carrinhoElement.style.display = 'block';
+    }); </script>
+
+
+
+
+</body>
+
+</html>
